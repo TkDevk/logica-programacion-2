@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(28, 28, 178, 0.706);
+}
+section{
+    margin-top: 10rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 25%;
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 2rem;
+    display:flex;
+    flex-direction: column;
+    column-gap: 0.5rem;
+    aspect-ratio: 3/2;
+    padding:4rem;
+    box-shadow: black 0.2rem 0.2rem 1rem;
+}
+
+button{
+    height: 5rem;
+    width: 10rem;
+    border: none;
+    background-color: rgba(37, 37, 204, 0.782);
+    border-radius: 1rem;
+    margin: auto;
+    cursor: pointer;
+    color:#fff;
+}
+h2{
+    text-align: center;
+}
